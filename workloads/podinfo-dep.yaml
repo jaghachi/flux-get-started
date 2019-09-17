@@ -47,7 +47,7 @@ spec:
         - --random-error=false
         env:
         - name: PODINFO_UI_MESSAGE
-          value: "a change to the variable!"
+          value: "5 min later....!"
         livenessProbe:
           httpGet:
             path: /healthz
